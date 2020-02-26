@@ -1,0 +1,141 @@
+* {
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: Adequate;
+    src: url(../font/Adequate.ttf;)
+}
+
+/*ACCUEIL FULL PAGE*/
+#Cover {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#TextLogo, #T1, #T2, #T3 {
+    font-family: Adequate;
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+#T1 {
+color: rgb(102, 199, 216);
+}
+
+#T2 {
+    color: pink;
+}
+
+#T3 {
+    color: lightgreen;
+}
+
+.Grey {
+    background-color: rgba(105, 105, 105, 0.2);
+}
+
+.Bouton a {
+    color: grey;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Bouton:hover a {
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}   
+
+.Zoom {
+    transition: transform 0.3s;
+}
+
+.Zoom:hover {
+    transform: scale(1.3);
+}
+
+
+/*ESPACE PARENTS*/
+h1 {
+    font-size: 40px;
+}
+
+.Bloc {
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+#texteImg{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+#Cover2 {
+    background-image: url(../img/cover2.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.Bloc {
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+#Formulaire{
+    width:80%; 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#BtnParents {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(75, 75, 75);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    border: solid 2px white;
+    font-family: Raleway;
+}
+
+#BtnParents:hover {
+    background-color: grey;
+}
+
+#Formulaire a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*CONTACT + COORDONNEES*/
+#BlocContact {
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
+    background-color: lightgreen;
+}
+
+#LogoBas{
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+/*FOOTER*/
+#Footer {
+    background-color: grey;
+    height: 20vh;
+}
+
